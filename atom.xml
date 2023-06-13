@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cmll02.github.io</id>
     <title>Gridea</title>
-    <updated>2023-06-13T11:20:41.141Z</updated>
+    <updated>2023-06-13T11:30:21.788Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cmll02.github.io"/>
     <link rel="self" href="https://cmll02.github.io/atom.xml"/>
@@ -19,17 +19,23 @@
         <content type="html"><![CDATA[<p>0613</p>
 <h1 id="ctt2020">CTT2020</h1>
 <h2 id="d1t1">D1T1</h2>
-<p>口胡了一个k进制线性基做法但是还没写，别急。</p>
+<details>
+<summary>口胡</summary>
+<pre><code>口胡了一个k进制线性基做法但是还没写，别急。
+</code></pre>
+</details>
 <hr>
 <p>0612 更新</p>
 <h1 id="sdoi">sdoi::</h1>
-<h2 id="d1t1-2">D1T1</h2>
+<details>
+<summary>。</summary>
+## D1T1
 <p>shaber 题</p>
 <h2 id="d1t2">D1T2</h2>
 <p>谁想得到啊？</p>
 <h2 id="d1t3">D1T3</h2>
 <p>线性代数在 oi 中没有应用。</p>
-<hr>
+<h2 id="details"></details></h2>
 <h1 id="ctt2018">CTT2018</h1>
 <p>感觉自己太嘴巴了，得写代码了</p>
 <p>打*的还没写</p>
@@ -45,7 +51,7 @@
 <h2 id="d2t2">D2T2</h2>
 <p>问有多少 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>(</mo><mi>S</mi><mo separator="true">,</mo><mi>C</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">(S,C)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.05764em;">S</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.07153em;">C</span><span class="mclose">)</span></span></span></span> 使得 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>S</mi><mo>≤</mo><mi>s</mi><mo separator="true">,</mo><mi>C</mi><mo>≤</mo><mi>c</mi></mrow><annotation encoding="application/x-tex">S\le s,C\le c</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8193em;vertical-align:-0.13597em;"></span><span class="mord mathdefault" style="margin-right:0.05764em;">S</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">s</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.07153em;">C</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">c</span></span></span></span>，存在若干不交整边长矩形，边长之和 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>C</mi></mrow><annotation encoding="application/x-tex">C</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.07153em;">C</span></span></span></span>，面积之和 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>B</mi></mrow><annotation encoding="application/x-tex">B</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span></span></span></span>。</p>
 <p>sol:</p>
-<ol start="0">
+<ol>
 <li>下文 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>c</mi></mrow><annotation encoding="application/x-tex">c</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">c</span></span></span></span> 为题面中的 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>⌊</mo><mfrac><mi>c</mi><mn>2</mn></mfrac><mo>⌋</mo></mrow><annotation encoding="application/x-tex">\lfloor \frac c 2\rfloor</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.095em;vertical-align:-0.345em;"></span><span class="mopen">⌊</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.695392em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">c</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose">⌋</span></span></span></span>，周长为短边和长边之和。</li>
 <li>短边边长不超过 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msqrt><mi>s</mi></msqrt></mrow><annotation encoding="application/x-tex">\sqrt s</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.04em;vertical-align:-0.23972em;"></span><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8002800000000001em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathdefault" style="padding-left:0.833em;">s</span></span><span style="top:-2.76028em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
 -10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,
