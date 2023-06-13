@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>QOJ | cmll02&#39;s blog</title>
-<link rel="shortcut icon" href="https://cmll02.github.io/favicon.ico?v=1686657788684">
+<link rel="shortcut icon" href="https://cmll02.github.io/favicon.ico?v=1686662896487">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cmll02.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="QOJ | cmll02&#39;s blog - Atom Feed" href="https://cmll02.github.io/atom.xml">
@@ -15,22 +15,9 @@
 CTT2020
 D1T1
 
-口胡口胡了一个k进制线性基做法但是还没写，别急。
-
-
-0612 更新
-sdoi::
-
-。
-D1T1
-shaber 题
-D1T2
-谁想得到啊？
-D1T3
-线性代数在 oi 中没有应用。
-
-CTT2018
-..." />
+sol
+注意到一条路我来回走 kkk 次对答案没有影响，这个意思就是我可以满图跑，随便选条边走两次或者找个环跑一遍。
+然后就变成了 kkk 进制线性基下面求最小 xor 了。要注意下这个东西的写法（和 ..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -40,7 +27,7 @@ CTT2018
       <div class="main-content">
         <div class="site-header">
   <a href="https://cmll02.github.io">
-  <img class="avatar" src="https://cmll02.github.io/images/avatar.png?v=1686657788684" alt="">
+  <img class="avatar" src="https://cmll02.github.io/images/avatar.png?v=1686662896487" alt="">
   </a>
   <h1 class="site-title">
     cmll02&#39;s blog
@@ -100,7 +87,7 @@ CTT2018
                 2023-06-13
               </span>
               <span>
-                2 min read
+                3 min read
               </span>
               
             </div>
@@ -111,7 +98,10 @@ CTT2018
 <h1 id="ctt2020">CTT2020</h1>
 <h2 id="d1t1">D1T1</h2>
 <details>
-<summary>口胡</summary>口胡了一个k进制线性基做法但是还没写，别急。
+<summary>sol</summary>
+<p>注意到一条路我来回走 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span></span></span></span> 次对答案没有影响，这个意思就是我可以满图跑，随便选条边走两次或者找个环跑一遍。</p>
+<p>然后就变成了 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span></span></span></span> 进制线性基下面求最小 xor 了。要注意下这个东西的写法（和 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span></span></span></span> 的 gcd 之类的东西）。</p>
+<p>复杂度好像是 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>O</mi><mo>(</mo><mi>n</mi><mi>log</mi><mo>⁡</mo><mi>n</mi><mi>log</mi><mo>⁡</mo><mi>k</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">O(n\log n \log k)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord mathdefault">n</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mop">lo<span style="margin-right:0.01389em;">g</span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">n</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mop">lo<span style="margin-right:0.01389em;">g</span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mclose">)</span></span></span></span>？</p>
 </details>
 <hr>
 <p>0612 更新</p>
