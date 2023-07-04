@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cmll02.github.io</id>
     <title>cmll02&apos;s blog</title>
-    <updated>2023-07-04T00:37:48.064Z</updated>
+    <updated>2023-07-04T10:37:07.599Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cmll02.github.io"/>
     <link rel="self" href="https://cmll02.github.io/atom.xml"/>
@@ -10,6 +10,26 @@
     <logo>https://cmll02.github.io/images/avatar.png</logo>
     <icon>https://cmll02.github.io/favicon.ico</icon>
     <rights>All rights reserved 2023, cmll02&apos;s blog</rights>
+    <entry>
+        <title type="html"><![CDATA[NOI2023 游记]]></title>
+        <id>https://cmll02.github.io/post/noi2023-cu/</id>
+        <link href="https://cmll02.github.io/post/noi2023-cu/">
+        </link>
+        <updated>2023-07-04T10:30:28.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="624-~-71">6.24 ~ 7.1</h2>
+<p>学考。</p>
+<p><strong>啥都没学出来</strong>，伤心了。</p>
+<h2 id="72">7.2</h2>
+<p>上午考完之后就回家。下午看漏掉的模拟赛，发现<strong>一个题都不会</strong>。</p>
+<p>晚上 ARC。B 读错题，后面代码没删干净罚了一发。发怒。C 不会做于是试图打开百度搜索做法，还真搜到了。D 是简单题，想了想就过了。E 只会两个人的情况，F 原题没做过，四题跑路。</p>
+<h2 id="73">7.3</h2>
+<p>出发去集训。路上<strong>摆摆摆</strong>。</p>
+<p>晚上和花花打 duel，<strong>连输两把。这也太菜了。</strong></p>
+<h2 id="74">7.4</h2>
+<p>上午模拟赛秒 T1 秒 T2，T3 好像是 lxl 题啊？不做了。打完暴力跑路，顺便补了以前没写的几个题。喜提 rk1。但是有** 21 个人**并列 rk1，区分度感人。</p>
+<p>下午好像<strong>啥都没做出来</strong>，伤心了。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[茨木乐乐的20番duel]]></title>
         <id>https://cmll02.github.io/post/duel/</id>
