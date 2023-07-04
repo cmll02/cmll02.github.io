@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>茨木乐乐的20番duel | cmll02&#39;s blog</title>
-<link rel="shortcut icon" href="https://cmll02.github.io/favicon.ico?v=1688390138999">
+<link rel="shortcut icon" href="https://cmll02.github.io/favicon.ico?v=1688431056398">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cmll02.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="茨木乐乐的20番duel | cmll02&#39;s blog - Atom Feed" href="https://cmll02.github.io/atom.xml">
@@ -27,7 +27,7 @@ Problem 2：CF842E\texttt\color{green}..." />
       <div class="main-content">
         <div class="site-header">
   <a href="https://cmll02.github.io">
-  <img class="avatar" src="https://cmll02.github.io/images/avatar.png?v=1688390138999" alt="">
+  <img class="avatar" src="https://cmll02.github.io/images/avatar.png?v=1688431056398" alt="">
   </a>
   <h1 class="site-title">
     cmll02&#39;s blog
@@ -132,7 +132,15 @@ Problem 2：CF842E\texttt\color{green}..." />
 <p>度数满的点位置一定相同，可以直接删掉。剩下的答案是能构造满的，只要把补图分解成若干至少两个点菊花。这个是简单的。</p>
 </details>
 <h2 id="problem-5textttcolorredcf480e">Problem 5：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mstyle mathcolor="red"><mtext mathvariant="monospace">CF480E</mtext></mstyle></mrow><annotation encoding="application/x-tex">\texttt\color{red}CF480E</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.61111em;vertical-align:0em;"></span><span class="mord text"><span class="mord texttt" style="color:red;">CF480E</span></span></span></span></span></h2>
-<p>什么玩意，你看我像会 DS 吗？</p>
+<p>题意：01 矩阵，每次把一个点变成 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0</mn></mrow><annotation encoding="application/x-tex">0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span>，然后求最大 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn></mrow><annotation encoding="application/x-tex">1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span> 正方形的边长。</p>
+<p>数据范围全是 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2000</mn></mrow><annotation encoding="application/x-tex">2000</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span></span></span></span>。</p>
+<details>
+<summary>题解</summary>
+<p>时光倒流，然后答案一定一直增。先求出倒流后最初的答案，维护每个点能往上走几个和往下走几个。</p>
+<p>当加入一个点的时候，先修改这一列上的这些值，然后试着增加答案。</p>
+<p>因为如果答案增加那么一定包含了修改的这个点，所以直接枚举这个点往左走几个，看到对应的右端点这段区间内往上往下走的最小值和算出来看看够不够边长就行了。</p>
+<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>O</mi><mo>(</mo><mi>n</mi><mi>m</mi><mo>+</mo><mi>n</mi><mi>k</mi><mo>+</mo><mi>m</mi><mi>k</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">O(nm+nk+mk)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord mathdefault">n</span><span class="mord mathdefault">m</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.77777em;vertical-align:-0.08333em;"></span><span class="mord mathdefault">n</span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault">m</span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mclose">)</span></span></span></span>。</p>
+</details>
 <h2 id="problem-6textttcolorredcf850d">Problem 6：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mstyle mathcolor="red"><mtext mathvariant="monospace">CF850D</mtext></mstyle></mrow><annotation encoding="application/x-tex">\texttt\color{red}CF850D</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.61111em;vertical-align:0em;"></span><span class="mord text"><span class="mord texttt" style="color:red;">CF850D</span></span></span></span></span></h2>
 <p>给定一个竞赛图的出度集合 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>S</mi></mrow><annotation encoding="application/x-tex">S</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.05764em;">S</span></span></span></span>，构造点数最小的图。</p>
 <details>
