@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cmll02.github.io</id>
     <title>cmll02&apos;s blog</title>
-    <updated>2023-07-04T12:39:21.549Z</updated>
+    <updated>2023-07-05T06:48:58.368Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cmll02.github.io"/>
     <link rel="self" href="https://cmll02.github.io/atom.xml"/>
@@ -31,7 +31,12 @@
 <p>晚上写了下【IOI2021】parks。感觉这个题非常的有趣啊！当你注意到大概这个方法的构造（下图黑+红线）：</p>
 <figure data-type="image" tabindex="1"><img src="https://cmll02.github.io/post-images/1688472186161.png" alt="" loading="lazy"></figure>
 <p>的时候你应该大概就能想到一个跟什么黑白染色有关的做法了！很厉害啊！</p>
-<p>做法是<img src="https://cmll02.github.io/post-images/1688474293873.png" alt="" loading="lazy">。</p>
+<details>
+<summary>做法是</summary>
+<p><img src="https://cmll02.github.io/post-images/1688474293873.png" alt="" loading="lazy">。</p>
+</details>
+<h2 id="75">7.5</h2>
+<p>上午把怪异讲题摆掉去和 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mstyle mathsize="2.488em"><mtext>力</mtext></mstyle></mrow><annotation encoding="application/x-tex">\Huge\text{力}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.7001250399999999em;vertical-align:0em;"></span><span class="mord text sizing reset-size6 size11"><span class="mord cjk_fallback">力</span></span></span></span></span> duel 了两把构造，<strong>第一把就输了</strong>。第二把 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mstyle mathsize="2.488em"><mtext>力</mtext></mstyle></mrow><annotation encoding="application/x-tex">\Huge\text{力}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.7001250399999999em;vertical-align:0em;"></span><span class="mord text sizing reset-size6 size11"><span class="mord cjk_fallback">力</span></span></span></span></span> 坐在我旁边看我写代码，雅  <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mstyle mathsize="2.488em"><mtext>力</mtext></mstyle></mrow><annotation encoding="application/x-tex">\Huge\text{力}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.7001250399999999em;vertical-align:0em;"></span><span class="mord text sizing reset-size6 size11"><span class="mord cjk_fallback">力</span></span></span></span></span> 非常大！好在最后若干发之后调出来了。 <strong>打不过 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mstyle mathsize="2.488em"><mtext>力</mtext></mstyle></mrow><annotation encoding="application/x-tex">\Huge\text{力}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.7001250399999999em;vertical-align:0em;"></span><span class="mord text sizing reset-size6 size11"><span class="mord cjk_fallback">力</span></span></span></span></span>！</strong></p>
 ]]></content>
     </entry>
     <entry>
