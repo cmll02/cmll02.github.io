@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cmll02.github.io</id>
     <title>cmll02&apos;s blog</title>
-    <updated>2023-07-24T13:29:12.475Z</updated>
+    <updated>2023-07-26T15:42:54.430Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cmll02.github.io"/>
     <link rel="self" href="https://cmll02.github.io/atom.xml"/>
@@ -83,6 +83,16 @@
 <p>很感叹，这一赛季唯一一场没挂分的比赛是非正式参加的 noi day1……而且一场打下来都很顺利。</p>
 <p>晚上听讲题，顺便和花花又 duel 两把桥牌，全输了。急急急。</p>
 <p>见到了______。</p>
+<h2 id="725day-15">7.25(Day 1.5)</h2>
+<p>上午去嘉年华摸鱼。</p>
+<p>下午想找花花打牌但是花花被漏保拉去打 hdu 多校了，很伤心！于是去看花花打多校。</p>
+<p>晚上忘了在干啥。</p>
+<h2 id="726day-2">7.26(Day 2)</h2>
+<p>开题<strong>不会 T1</strong>，震撼。半小时之后看 T2，string？再看一眼发现 shaber 题，写个 SA 写个 manacher 写个二维数点直接过样例了，拍了 1e4 组没出问题。此时 90min，写剩下两题暴力，最后 90min 啥都没想出来。又是罚坐。</p>
+<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>70</mn><mo>+</mo><mn>100</mn><mo>+</mo><mn>25</mn></mrow><annotation encoding="application/x-tex">70+100+25</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">7</span><span class="mord">0</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">5</span></span></span></span>，tm 真就只有非正式参加不会挂分是吧，，，</p>
+<p>总分 517，比 dx 高一分，比金牌线高 8 分，获得了一个掉 rp 的 D au。</p>
+<p>下午一直在打桥牌。太久没打已经没脑子了。</p>
+<p>晚上到处乱滚。</p>
 ]]></content>
     </entry>
     <entry>
