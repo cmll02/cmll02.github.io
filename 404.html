@@ -1,89 +1,93 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Page Not Found</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-    }
-    body {
-      display: flex;
-      flex-direction: column;
-      height: 100vh;
-      text-align: center;
-    }
-    .box {
-      flex: 1;
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-    }
-    .number {
-      font-size: 80px;
-      color: #666;
-      font-weight: bold;
-    }
-    .text {
-      font-size: 14px;
-      margin: 24px;
-      color: #333;
-    }
-    .btn-container {
-      display: flex;
-      justify-content: center;
-    }
-    .btn {
-      padding: 8px 24px;
-      display: inline-block;
-      text-decoration: none;
-      background: #fff;
-      border: 2px solid #efefef;
-      color: #333;
-      margin: 24px;
-      border-radius: 20px;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-    }
-    .footer {
-      padding: 16px;
-      border-top: 1px solid #efefef;
-      color: #777;
-      font-weight: lighter;
-    }
-    .footer a {
-      text-decoration: none;
-      font-weight: bold;
-      color: #000;
-    }
-  </style>
-</head>
-<body>
-  <div class="box">
-    <div class="number">4 0 4</div>
-    <div class="text">
-      Page not found
-    </div>
-    <div class="btn-container">
-      <a class="btn" id="back">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" style="margin-right: 8px;">
-          <path fill="none" d="M0 0h24v24H0z"/>
-          <path d="M5.828 7l2.536 2.536L6.95 10.95 2 6l4.95-4.95 1.414 1.414L5.828 5H13a8 8 0 1 1 0 16H4v-2h9a6 6 0 1 0 0-12H5.828z"/>
-        </svg>
-        Back
-      </a>
-    </div>
-  </div>
-  <footer class="footer">
-    Powered by <a href="https://gridea.dev" target="_blank">Gridea</a>
-  </footer>
-  <script>
-    var back = document.getElementById('back')
-    back.onclick = function() { console.log('run...'); history.back() }
-  </script>
-</body>
-</html>
+<html lang="en"><head>
+            <!--Domain of new version of XJOI: https://alpha.xjoi.net-->
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            <title>XJOI</title>
+
+            <link rel="shortcut icon" href="https://static.production.xjoi.net/images/xjoi-new/favicon.ico">
+
+            <link rel="stylesheet" href="https://static.production.xjoi.net/css/bootstrap.min.css">
+            <link rel="stylesheet" href="https://static.production.xjoi.net/css/bootstrap-theme.min.css">
+            <script src="https://static.production.xjoi.net/js/jquery.min.js"></script>
+            <script src="https://static.production.xjoi.net/js/bootstrap.min.js"></script>
+            <link rel="stylesheet" href="https://static.production.xjoi.net/css/xjoi-new/xjoi-new.css?v=17" type="text/css">
+            <link rel="stylesheet" href="https://static.production.xjoi.net/css/non-responsive.css" type="text/css">
+            <link rel="stylesheet" href="http://static.production.xjoi.net/lib/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+            <script type="text/javascript" src="https://static.production.xjoi.net/Scripts/shCore.js"></script>
+            <script type="text/javascript" src="https://static.production.xjoi.net/Scripts/shBrushJScript.js"></script>
+            <script type="text/javascript" src="https://static.production.xjoi.net/Scripts/shBrushCpp.js"></script>
+            <script type="text/javascript" src="https://static.production.xjoi.net/Scripts/shBrushDelphi.js"></script>
+            <link type="text/css" rel="stylesheet" href="https://static.production.xjoi.net/Styles/shCoreDefault.css">
+            <script type="text/javascript">
+                SyntaxHighlighter.all();
+            </script>
+            <script type="text/javascript">
+                SyntaxHighlighter.config.tagName = 'textarea';
+            </script>
+
+            <script type="text/javascript" src="https://static.production.xjoi.net/js/ckeditor/ckeditor.js"></script><style>.cke{visibility:hidden;}</style>
+
+
+
+            <!-- MathJax -->
+            <script type="text/x-mathjax-config;executed=true">
+                MathJax.Hub.Config({
+			showProcessingMessages: false,
+			tex2jax: {
+				inlineMath: [["$", "$"], ["\\\\(", "\\\\)"],["\\(","\\)"],["[tex]","[/tex]"]],
+				processEscapes:true
+			},
+			menuSettings: {
+				zoom: "Hover"
+			}
+		});
+	</script>
+            <script type="text/javascript" src="https://static.production.xjoi.net/lib/MathJax/MathJax.js?config=default"></script>
+
+            <!-- heiheihei - by cbh -->
+            <link href="https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+            <style type="text/css">
+                .page {
+                    font-family: 'Lato', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif !important;
+                }
+                .MathJax nobr>span.math>span {
+                    border-left-width: 0 !important;
+                }
+            </style>
+
+        <style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; color: #666666}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_Menu_Close {position: absolute; width: 31px; height: 31px; top: -15px; left: -15px}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style></head>
+
+        <body class="page" style="zoom: 1;"><div id="MathJax_Message" style="display: none;"></div>
+            <script type="text/javascript">
+                document.body.style.zoom = Math.max(window.screen.width, 1080) / 1080;
+            </script>
+             <div class="problem-view-main" role="main"><p align="center"><img src="https://static.production.xjoi.net/images/emoticon-1.gif" alt=""></p><p align="center">404</p></div>
+	
+
+
+
+	  
+	
+ </body></html>
