@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>非人类题目训练合集 | cmll02&#39;s blog</title>
-<link rel="shortcut icon" href="https://cmll02.github.io/favicon.ico?v=1693313591528">
+<link rel="shortcut icon" href="https://cmll02.github.io/favicon.ico?v=1693369905118">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cmll02.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="非人类题目训练合集 | cmll02&#39;s blog - Atom Feed" href="https://cmll02.github.io/atom.xml">
@@ -26,7 +26,7 @@ Sol
       <div class="main-content">
         <div class="site-header">
   <a href="https://cmll02.github.io">
-  <img class="avatar" src="https://cmll02.github.io/images/avatar.png?v=1693313591528" alt="">
+  <img class="avatar" src="https://cmll02.github.io/images/avatar.png?v=1693369905118" alt="">
   </a>
   <h1 class="site-title">
     cmll02&#39;s blog
@@ -93,21 +93,29 @@ Sol
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>CF1864H</p>
-<detail>
+                <h2 id="cf1864h">CF1864H</h2>
+<details>
 <summary>Sol</summary>
 <p>做过 loj 那个题最后也没切。</p>
 <p>学了杜老师的做法，很牛啊。</p>
 <p>把 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>f</mi><mo>(</mo><mo>⌊</mo><mi>n</mi><msup><mn>2</mn><mrow><mo>−</mo><mi>k</mi></mrow></msup><mo>⌋</mo><mo>)</mo></mrow><annotation encoding="application/x-tex">f(\lfloor n2^{-k}\rfloor)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0991079999999998em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mopen">⌊</span><span class="mord mathdefault">n</span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8491079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mathdefault mtight" style="margin-right:0.03148em;">k</span></span></span></span></span></span></span></span></span><span class="mclose">⌋</span><span class="mclose">)</span></span></span></span> 弄到一个矩阵里，转移只与 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">lowbit</mi><mo>⁡</mo><mo>(</mo><mi>n</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">\operatorname{lowbit}(n)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mop"><span class="mord mathrm">l</span><span class="mord mathrm">o</span><span class="mord mathrm" style="margin-right:0.01389em;">w</span><span class="mord mathrm">b</span><span class="mord mathrm">i</span><span class="mord mathrm">t</span></span><span class="mopen">(</span><span class="mord mathdefault">n</span><span class="mclose">)</span></span></span></span> 相关。<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>O</mi><mo>(</mo><msup><mi>log</mi><mo>⁡</mo><mn>4</mn></msup><mi>n</mi><mo>+</mo><mi>t</mi><msup><mi>log</mi><mo>⁡</mo><mn>3</mn></msup><mi>n</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">O(\log^4n+t\log^3 n)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.148448em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mop"><span class="mop">lo<span style="margin-right:0.01389em;">g</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8984479999999999em;"><span style="top:-3.1473400000000002em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">4</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">n</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1.148448em;vertical-align:-0.25em;"></span><span class="mord mathdefault">t</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mop"><span class="mop">lo<span style="margin-right:0.01389em;">g</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8984479999999999em;"><span style="top:-3.1473400000000002em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">n</span><span class="mclose">)</span></span></span></span>。</p>
-</detail>
-<p>ptzs23d5b</p>
-<detail>
+</details>
+<h2 id="ptzs23d5b">ptzs23d5b</h2>
+<details>
 <summary>Sol</summary>
 <p>根据相关规定，本内容不予显示。</p>
-</detail>
+</details>
               </div>
               <div class="toc-container">
-                
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#cf1864h">CF1864H</a></li>
+<li><a href="#ptzs23d5b">ptzs23d5b</a></li>
+</ul>
+</li>
+</ul>
+
               </div>
             </div>
           </article>
