@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>重 量 级 构 造 题（集合） | cmll02&#39;s blog</title>
-<link rel="shortcut icon" href="https://cmll02.github.io/favicon.ico?v=1700488581142">
+<link rel="shortcut icon" href="https://cmll02.github.io/favicon.ico?v=1700652443772">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cmll02.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="重 量 级 构 造 题（集合） | cmll02&#39;s blog - Atom Feed" href="https://cmll02.github.io/atom.xml">
@@ -12,8 +12,9 @@
 
 
     <meta name="description" content="The 2nd Universal Cup
-R9F
-给你迷宫，有些地方不能走。bot 从起点走到终点，并且访问所有能走的地方至少一次。你需要发送命令给 bot（命令包括上下左右）。如果走过去的位置不能走就不走。你的命令必须是回文串。构造。无..." />
+R11
+R10F
+给你迷宫，有些地方不能走。bot 从起点走到终点，并且访问所有能走的地方至少一次。你需要发送命令给 bot（命令包括上下左右）。如果走过去的位置不能走就不走。你的命令必须是回文串..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -23,7 +24,7 @@ R9F
       <div class="main-content">
         <div class="site-header">
   <a href="https://cmll02.github.io">
-  <img class="avatar" src="https://cmll02.github.io/images/avatar.png?v=1700488581142" alt="">
+  <img class="avatar" src="https://cmll02.github.io/images/avatar.png?v=1700652443772" alt="">
   </a>
   <h1 class="site-title">
     cmll02&#39;s blog
@@ -89,7 +90,7 @@ R9F
                 2023-11-20
               </span>
               <span>
-                4 min read
+                6 min read
               </span>
               
             </div>
@@ -97,7 +98,8 @@ R9F
             <div class="post-content-wrapper">
               <div class="post-content">
                 <h1 id="the-2nd-universal-cup">The 2nd Universal Cup</h1>
-<h2 id="r9f">R9F</h2>
+<h2 id="r11">R11</h2>
+<h2 id="r10f">R10F</h2>
 <p>给你迷宫，有些地方不能走。bot 从起点走到终点，并且访问所有能走的地方至少一次。你需要发送命令给 bot（命令包括上下左右）。如果走过去的位置不能走就不走。你的命令必须是回文串。构造。无解输出 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>−</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">-1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">−</span><span class="mord">1</span></span></span></span>。</p>
 <p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi><mo separator="true">,</mo><mi>m</mi><mo>≤</mo><mn>30</mn></mrow><annotation encoding="application/x-tex">n,m\le 30</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8304100000000001em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">n</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">m</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span><span class="mord">0</span></span></span></span>。</p>
 <details>
@@ -114,7 +116,7 @@ R9F
 </code></pre>
 <p>如果你开头放了 <code>RRR</code> 就没救了。</p>
 </details>
-<h2 id="r9k">R9K</h2>
+<h2 id="r10k">R10K</h2>
 <p>构造一个平面图，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">n</span></span></span></span> 个点，且度数 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>&lt;</mo><mn>6</mn></mrow><annotation encoding="application/x-tex">&lt;6</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">6</span></span></span></span> 的点不超过四个。</p>
 <details>
 <summary>题解</summary>
@@ -126,6 +128,25 @@ R9F
 <p>仔细一看：<img src="https://cmll02.github.io/post-images/1700487709121.png" alt="" loading="lazy"></p>
 <p>这样就能加四个点，于是可以获得 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>≥</mo><mn>8</mn></mrow><annotation encoding="application/x-tex">\ge 8</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7719400000000001em;vertical-align:-0.13597em;"></span><span class="mrel">≥</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">8</span></span></span></span> 的任意偶数的构造。</p>
 <p>大力猜测奇数无解，过了。</p>
+</details>
+<h2 id="r9k">R9K</h2>
+<p>构造 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi><mo>×</mo><mi>n</mi></mrow><annotation encoding="application/x-tex">n\times n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord mathdefault">n</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">n</span></span></span></span>矩阵，值域 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>[</mo><mn>0</mn><mo separator="true">,</mo><mn>4</mn><msup><mi>n</mi><mn>2</mn></msup><mo>)</mo></mrow><annotation encoding="application/x-tex">[0,4n^2)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.064108em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord">0</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">4</span><span class="mord"><span class="mord mathdefault">n</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span>，每个数出现不超过 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>5</mn></mrow><annotation encoding="application/x-tex">5</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">5</span></span></span></span> 次，相邻两个数 and 起来是 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0</mn></mrow><annotation encoding="application/x-tex">0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span>。</p>
+<details>
+<summary>题解</summary>
+<p>这种题加点限制就行。</p>
+<p>出现次数给他来个不超过 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>4</mn></mrow><annotation encoding="application/x-tex">4</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">4</span></span></span></span> 次，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>4</mn><msup><mi>n</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">4n^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord">4</span><span class="mord"><span class="mord mathdefault">n</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span> 把他紧到取 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>k</mi><mo>=</mo><msup><mn>2</mn><mi>t</mi></msup></mrow><annotation encoding="application/x-tex">k=2^t</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.7935559999999999em;vertical-align:0em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7935559999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">t</span></span></span></span></span></span></span></span></span></span></span> 且大于等于 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">n</span></span></span></span> 的最小 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span></span></span></span>，然后就是 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mi>k</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">k^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span>。</p>
+<p>考虑构造出第一行之后，后面可以：</p>
+<pre><code>00 11 02 13 04
+11 22 13 24 10
+20 31 22 33 24
+31 42 33 44 30
+40 01 42 03 44
+</code></pre>
+<p>这样整一下行列分别高低位。方便起见钦定 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>a</mi><mrow><mn>0</mn><mo separator="true">,</mo><mn>0</mn></mrow></msub><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">a_{0,0}=0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.716668em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathdefault">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.301108em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">0</span><span class="mpunct mtight">,</span><span class="mord mtight">0</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span>。</p>
+<p>发现让 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>a</mi></mrow><annotation encoding="application/x-tex">a</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">a</span></span></span></span> 的第一行互不相同是不现实的，至少会有数出现两次。这样极端情况下矩阵出现次数最多的就是八次了，不太行。</p>
+<p>但是你发现可以考虑一下奇偶性，如果两次出现位置奇偶性不同那就只会出现四次了。</p>
+<p>一个简单的构造是类似回文的东西：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0</mn><mi>a</mi><mi>b</mi><mi>c</mi><mi>d</mi><mo>⋯</mo><mi>x</mi><mi>y</mi><mstyle mathcolor="red"><mi>z</mi><mi>x</mi><mo>⋯</mo><mi>d</mi><mi>c</mi><mi>b</mi><mi>a</mi><mn>0</mn></mstyle></mrow><annotation encoding="application/x-tex">0 a b c d \cdots x y \color{red}z x \cdots d c b a 0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord">0</span><span class="mord mathdefault">a</span><span class="mord mathdefault">b</span><span class="mord mathdefault">c</span><span class="mord mathdefault">d</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="minner">⋯</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">x</span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mord mathdefault" style="margin-right:0.04398em;color:red;">z</span><span class="mord mathdefault" style="color:red;">x</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="minner" style="color:red;">⋯</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="color:red;">d</span><span class="mord mathdefault" style="color:red;">c</span><span class="mord mathdefault" style="color:red;">b</span><span class="mord mathdefault" style="color:red;">a</span><span class="mord" style="color:red;">0</span></span></span></span> 这样的。</p>
+<p>直接搜就能搜出一个合法序列。</p>
 </details>
 <h2 id="r8d">R8D</h2>
 <p>平面上有 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">n</span></span></span></span> 个地铁站，一条地铁是一条折线，要求拐点都在整点处。</p>
@@ -196,7 +217,9 @@ R9F
                 <ul class="markdownIt-TOC">
 <li><a href="#the-2nd-universal-cup">The 2nd Universal Cup</a>
 <ul>
-<li><a href="#r9f">R9F</a></li>
+<li><a href="#r11">R11</a></li>
+<li><a href="#r10f">R10F</a></li>
+<li><a href="#r10k">R10K</a></li>
 <li><a href="#r9k">R9K</a></li>
 <li><a href="#r8d">R8D</a></li>
 <li><a href="#r7l">R7L</a></li>
