@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cmll02.github.io</id>
     <title>cmll02&apos;s blog</title>
-    <updated>2023-11-23T13:37:01.677Z</updated>
+    <updated>2023-11-25T08:15:19.655Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cmll02.github.io"/>
     <link rel="self" href="https://cmll02.github.io/atom.xml"/>
@@ -152,7 +152,7 @@
 <summary>Sol</summary>
 <p>熔池一下下界，然后处理一下使得每个数下界变 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0</mn></mrow><annotation encoding="application/x-tex">0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span>。</p>
 </details>
-<h2 id="wtf22d">WTF22D</h2>
+<h2 id="wtf22-day1-d">WTF22 day1 D</h2>
 <details>
 <summary>Sol</summary>
 <p>这个东西一眼凸，所以先 wqs 二分。</p>
