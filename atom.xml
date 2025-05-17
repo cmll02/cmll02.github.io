@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cmll02.github.io</id>
     <title>cmll02&apos;s blog</title>
-    <updated>2025-05-17T13:04:13.893Z</updated>
+    <updated>2025-05-17T13:09:30.032Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cmll02.github.io"/>
     <link rel="self" href="https://cmll02.github.io/atom.xml"/>
@@ -23,7 +23,7 @@
 <p>现在简单了，拿走 DA 再将个 D，打出第三轮将牌，只要黑桃是 3-3 定约已经完成。</p>
 <p>如果第一墩没有忍让，在该分布下会出问题。</p>
 <figure data-type="image" tabindex="2"><img src="https://cmll02.github.io/post-images/1747486837573.png" alt="" loading="lazy"></figure>
-<p>到此，送出 D 给东家后，东家可以回出 S，此时庄家将吃最后一个 D 和清最后一轮将共需要一个进张，但手上只有 SA，定约不可避免宕一。</p>
+<p>到此，送出 D 给东家后，东家可以回出 S，此时庄家将吃最后一个 D 和清最后一轮将共需要两个进张，但手上只有 SA，定约不可避免宕一。</p>
 ]]></content>
     </entry>
     <entry>
